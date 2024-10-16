@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D8C4A6;
+    margin: 0;
+    padding: 0;
+}
+ 
+/* Container principal do formulário */
+.container {
+    width: 100%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #A87B56;
+    border-radius: 8px;
+}
+ 
+/* Cabeçalho e navegação */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #F1C18E;
+}
+ 
+header a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+header a:hover {
+    text-decoration: underline;
+}
+ 
+/* Logo e título no cabeçalho */
+.logo {
+    display: flex;
+    align-items: center;
+}
+ 
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+ 
+.logo h1 {
+    font-size: 24px;
+    color: green;
+}
+ 
+/* Estilos do formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+ 
+input[type="email"], input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+ 
+/* Botão de cadastro */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #00C9A7;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #009b86;
+}
+ 
+/* Texto e ícone de ajuda */
+.help-text {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+.help-text img {
+    width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.nav1
+{
+    padding: 35px;
+}

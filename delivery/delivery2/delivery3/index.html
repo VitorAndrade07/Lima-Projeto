@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil da Loja</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+        }
+ 
+        .sidebar {
+            width: 25%;
+            background-color: #c69c6d;
+            padding: 20px;
+            color: black;
+        }
+ 
+        .sidebar h2 {
+            margin-bottom: 30px;
+        }
+ 
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+ 
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+ 
+        .sidebar ul li input {
+            margin-right: 10px;
+        }
+ 
+        .main-content {
+            width: 75%;
+            background-color: #d2b48c;
+            padding: 50px;
+        }
+ 
+        .main-content h2 {
+            margin-bottom: 20px;
+        }
+ 
+        .form-group {
+            margin-bottom: 20px;
+        }
+ 
+        .form-group label {
+            font-size: 18px;
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+ 
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+            position: relative;
+            margin-bottom: 20px;
+        }
+ 
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+ 
+        .edit-icon {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #fff;
+            padding: 5px;
+            border-radius: 50%;
+        }
+ 
+        .support {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Impulsione suas vendas</h2>
+            <ul>
+                <li><input type="checkbox">Formas de pagamento</li>
+                <li><input type="checkbox">Áreas de entrega</li>
+                <li><input type="checkbox">Horário de funcionamento</li>
+                <li><input type="checkbox" checked>Perfil</li>
+                <li><input type="checkbox" checked>Financeiro</li>
+                <li><input type="checkbox" checked>Cardápio</li>
+                <li><input type="checkbox" checked>Logo</li>
+            </ul>
+        </div>
+ 
+        <div class="main-content">
+            <div class="profile-image">
+                <img src="camera-icon.png" alt="Editar imagem">
+                <div class="edit-icon">Editar</div>
+            </div>
+ 
+            <div class="form-group">
+                <label for="store-name">Nome da loja</label>
+                <input type="text" id="store-name" value="Churras Brasil">
+            </div>
+ 
+            <div class="form-group">
+                <label for="store-phone">Telefone de contato</label>
+                <input type="text" id="store-phone" value="(11) 97818-0371">
+            </div>
+        </div>
+ 
+        <div class="support">
+            <p>Olá! Tenho dicas para aumentar suas vendas. Vamos conversar?</p>
+            <button>Fale com um consultor</button>
+        </div>
+    </div>
+</body>
+</html>

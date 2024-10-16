@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoDelivery - Cadastro</title>
+<link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #D8C4A6;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #A87B56;
+            border-radius: 8px;
+        }
+ 
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #F1C18E;
+        }
+ 
+        header a {
+            color: #000;
+            text-decoration: none;
+            font-size: 18px;
+        }
+ 
+        header a:hover {
+            text-decoration: underline;
+        }
+ 
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+ 
+        .logo img {
+            width: 50px;
+            margin-right: 10px;
+        }
+ 
+        .logo h1 {
+            font-size: 24px;
+            color: green;
+        }
+ 
+        .form-group {
+            margin-bottom: 20px;
+        }
+ 
+        label {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+ 
+        input[type="email"], input[type="text"], input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+ 
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: #00C9A7;
+            color: #fff;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+ 
+        button:hover {
+            background-color: #009b86;
+        }
+ 
+        .help-text {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+ 
+        .help-text img {
+            width: 100px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+    </style>
+</head>
+<body>
+ 
+    <header>
+        <div class="logo">
+            <img src="download.png" alt="EcoDelivery Logo">
+            <h1>EcoDelivery</h1>
+        </div>
+        <nav class="nav2">
+            <a href="#" class="nav1">Início</a >
+            <a href="#" class="nav1">Como funciona</a>
+            <a href="#" class="nav1">Ajuda</a>
+        </nav>
+        <div>
+            <a href="#">Entrar</a>
+            <a href="../delivery/delivery2/index.html" style="background-color: #fff; padding: 10px 15px; border-radius: 5px;">Cadastro</a>
+        </div>
+    </header>
+ 
+    <div class="container">
+        <div class="help-text">
+            <img src="Captura_de_tela_2024-10-11_135014-removebg-preview.png" alt="Help Icon">
+            <p>Precisa de ajuda na gestão?</p>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="email@email.com.br">
+            </div>
+            <div class="form-group">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name" placeholder="Vitor Costa">
+            </div>
+            <div class="form-group">
+                <label for="phone">Celular (com DDD)</label>
+                <input type="tel" id="phone" name="phone" placeholder="(00)00000-0000">
+            </div>
+            <button type="submit">Cadastre-se</button>
+        </form>
+    </div>
+ 
+</body>
+</html>

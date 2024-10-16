@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Vendas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F0E3D2;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+        }
+        .sidebar {
+            background-color: #D4B494;
+            width: 30%;
+            padding: 20px;
+        }
+        .content {
+            background-color: #A67953;
+            width: 70%;
+            padding: 20px;
+            color: white;
+        }
+        .sidebar h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: black;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 15px 0;
+            font-size: 18px;
+        }
+        .sidebar ul li:before {
+            content: '⚪';
+            margin-right: 10px;
+            color: black;
+        }
+        .sidebar ul li.checked:before {
+            content: '✅';
+            color: green;
+        }
+        .content h2 {
+            font-size: 24px;
+            color: #000;
+        }
+        .content p {
+            font-size: 18px;
+            color: #000;
+        }
+        .content img {
+            margin-top: 20px;
+            width: 100px;
+            height: auto;
+        }
+        .logo {
+            float: right;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>Impulsione suas vendas</h1>
+            <ul>
+                <li>Formas de pagamento</li>
+                <li>Áreas de entrega</li>
+                <li>Horário de funcionamento</li>
+                <li class="checked">Perfil</li>
+                <li class="checked">Financeiro</li>
+                <li class="checked">Cardápio</li>
+                <a href="delivery3/index.html"><li>Logo</li></a>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Bem-vindo ao nosso Gestor de Vendas!</h2>
+            <p>O Gestor de Vendas é uma ferramenta poderosa projetada para simplificar e otimizar a gestão das suas vendas. Ele oferece uma visão abrangente das suas transações, permitindo que você acompanhe o desempenho das suas vendas de forma eficaz e tome decisões informadas para impulsionar o seu negócio.</p>
+            <img src="vendedor-removebg-preview.png" alt="Personagem de vendedor">
+            <img src="download.png" class="logo" alt="Eco Delivery Logo">
+        </div>
+    </div>
+</body>
+</html>
+ 

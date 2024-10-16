@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Aileron';
+    src: url(aileron/Aileron-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Rosergan';
+    src: url(rogersan-webfont.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Rosergan';
+    src: url(rogersan-webfont.woff2);
+    font-weight: 500;
+}

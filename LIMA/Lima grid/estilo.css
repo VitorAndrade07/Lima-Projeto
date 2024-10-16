@@ -1,0 +1,129 @@
+body{
+    background-color: #D2E8A8;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    margin: 0;
+}
+
+.item{
+    background-color: #048;
+    color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.conteiner{
+    grid-column: 2;
+    grid-row: 4;
+    grid-template-columns: 20px 200px;
+    grid-template-rows: 100px 150px;
+}
+
+.conteiner2{
+    grid: auto;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#quem{
+    font-size: 40px;
+    white-space: nowrap;
+    position: top;
+    font-family: 'Rosergan';
+    margin-left: 90px;
+}
+
+.conteiner3{
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 30px;
+}
+
+#img{
+    width: 150px;
+    margin-left: 90px;
+}
+
+.container4{
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 0px;
+}
+
+#textoq{
+    font-size: 30px;
+    font-family: 'Aileron';
+    font-weight: 400;
+}
+
+.container5{
+    grid-column: 4;
+    grid-row: 3 / span 1;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.container6:hover{
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.item5{
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 33px;
+    text-align: center;
+    height: 420px;
+    background-color: #29E2B1;
+    position: absolute;
+}
+
+#cliente{
+    margin-top: 200px;
+    font-family: 'Rosergan';
+    font-weight: 500;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.container6{
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 33px;
+    text-align: center;
+    height: 420px;
+    background-color: #96704F;
+    position: absolute;
+    right: 340px;
+}
+
+.a6{
+    text-decoration: none;
+    color: #000;
+}
+
+.a6:hover{
+    display: flex;
+    width: 3%;
+}
+
+.linha{
+    border: 1px solid #d4b397;
+    width: 1px;
+    background-color: #d4b397;
+    margin-left: 150px;
+    grid-column: 3;
+    grid-row: 3;
+    align-items: center;
+
+}
+
+#parceiro{
+margin-top: 200px;
+font-family: 'Rosergan';
+font-size: 30px;
+}
+ 
